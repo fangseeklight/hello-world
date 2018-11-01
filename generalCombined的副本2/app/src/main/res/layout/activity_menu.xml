@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wechatimg3"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/showE"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/showEnergy"
+        android:layout_alignStart="@+id/imageButton1"
+        android:layout_marginBottom="-120dp"
+        android:background="@drawable/button1"
+        android:text="Welcome! "
+        android:textAlignment="center"
+        android:textColor="@color/place_autocomplete_prediction_primary_text"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/showEnergy"
+        android:layout_width="42dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="120dp"
+        android:textColor="#ff0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/showS"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/showEnergy"
+        android:layout_marginEnd="42dp"
+        android:textColor="#ff0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/showScore"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/showE"
+        android:layout_toEndOf="@+id/showE"
+        android:background="@drawable/button0"
+        android:textColor="@color/place_autocomplete_prediction_primary_text"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="227dp"
+        android:layout_height="94dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="169dp"
+        android:src="@drawable/wechatimg4" />
+
+    <Button
+        android:id="@+id/enterBluetooth2"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+
+        android:layout_centerInParent="true"
+        android:background="@drawable/button0"
+        android:text="Get Energy"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/enterAccountActivity"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="280dp"
+        android:background="@drawable/button0"
+        android:text="Account Info"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/rankingList"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="180dp"
+        android:background="@drawable/button0"
+        android:text="Ranking List"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/ggmap"
+
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="84dp"
+        android:background="@drawable/button0"
+        android:text="Google Map"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/backgroundblue1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Hi there"
+        android:textAlignment="center"
+        android:textColor="@color/place_autocomplete_prediction_primary_text"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="64dp"
+        android:text="Please make sure your bluetooth is working"
+        android:textAlignment="center"
+        android:textColor="@color/place_autocomplete_prediction_primary_text"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="132dp"
+        android:textAlignment="center"
+        android:textColor="#ff0000"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+
+    <ImageButton
+        android:id="@+id/CheckAddEnergy2"
+        android:layout_width="260dp"
+        android:layout_height="213dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="70dp"
+        android:layout_weight="2"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:padding="20dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/check1" />
+
+
+
+</RelativeLayout>
