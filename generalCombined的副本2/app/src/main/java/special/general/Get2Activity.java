@@ -187,10 +187,11 @@ public class Get2Activity extends AppCompatActivity {
     }
 
     public void pushToDatabase(){
+        LoginActivity.iCount ++;
         System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<successful once>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
         Map userUpdate = new HashMap();//(currentId,currentUser.userName,currentUser.userPassword,currentUser.email,currentUser.userScore,currentUser.userEnergy-20);
         userUpdate.put("email",currentUser.email);
-        userUpdate.put("userEnergy",currentUser.userEnergy+40);
+        userUpdate.put("userEnergy",currentUser.userEnergy+40*LoginActivity.iCount);
         userUpdate.put("userId",currentUser.userId);
         userUpdate.put("userName",currentUser.userName);
         userUpdate.put("userPassword",currentUser.userPassword);

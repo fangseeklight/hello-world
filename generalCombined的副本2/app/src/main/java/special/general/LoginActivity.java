@@ -18,6 +18,8 @@ import com.google.firebase.database.ValueEventListener;
 
 public class LoginActivity extends AppCompatActivity {
 
+    static int iCount = 0;
+
     EditText loginUN;
     EditText loginPW;
 
